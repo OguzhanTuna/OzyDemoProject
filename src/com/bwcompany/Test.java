@@ -7,4 +7,9 @@ public class Test {
     {
         System.out.println("doWork()");
     }
+
+    public void print()
+    {
+        System.out.println("print()");
+    }
 }
