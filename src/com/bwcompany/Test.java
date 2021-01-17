@@ -18,4 +18,9 @@ public class Test {
         System.out.println("exactly foo()");
         System.out.println("foo()");
     }
+
+    public void rollBackExample()
+    {
+        System.out.println("kar()");
+    }
 }
