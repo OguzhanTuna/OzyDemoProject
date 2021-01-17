@@ -7,4 +7,15 @@ public class Test {
     {
         System.out.println("doWork()");
     }
+
+    public void print()
+    {
+        System.out.println("print()");
+    }
+
+    public void foo()
+    {
+        System.out.println("exactly foo()");
+        System.out.println("foo()");
+    }
 }
