@@ -12,4 +12,9 @@ public class Test {
     {
         System.out.println("print()");
     }
+
+    public void foo()
+    {
+        System.out.println("foo()");
+    }
 }
