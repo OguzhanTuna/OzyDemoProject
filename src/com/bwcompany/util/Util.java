@@ -1,7 +1,10 @@
 package com.bwcompany.util;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 import java.util.Random;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -31,5 +34,16 @@ public final class Util {
                         = MS_ALPHABET_TR.charAt(MS_RANDOM.nextInt(29)));
 
         return new String(randomChars);
+    }
+
+    public static List<Character> getCharacterList(String s)
+    {
+        List<Character> characters = new ArrayList<>();
+
+        for(char ch : s.toCharArray()){
+            characters.add(ch);
+        }
+
+        return characters;
     }
 }
